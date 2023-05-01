@@ -1,0 +1,44 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000v\u0000i\u0000r\u0000t\u0000u\u0000a\u0000l\u0000-\u0000k\u0000e\u0000y\u0000b\u0000o\u0000a\u0000r\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build-dev": "webpack",
+    "build-prod": "webpack --node-env=production",
+    "clear": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vwital/virtual-keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vwital/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/vwital/virtual-keyboard#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
+    "postcss-preset-env": "^8.3.2",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2"
+  }
+}
